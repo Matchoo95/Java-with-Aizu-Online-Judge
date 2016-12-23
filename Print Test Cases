@@ -1,13 +1,12 @@
 import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
-        
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder output = new StringBuilder();
         int i = 1;
         while(true){
-            int x = Integer.parseInt(br.readline());
+            int x = Integer.parseInt(br.readLine());
             if(x == 0){
                 break;
             }
