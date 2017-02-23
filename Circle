@@ -16,11 +16,6 @@ public class Main {
         area = Math.PI * (r * r);
         circumference = 2 * (Math.PI * r);
         
-        createString
-            .append(area)
-            .append(" ")
-            .append(circumference)
-            .append("\n");
-        System.out.print(createString);
+        System.out.printf("%6f %6f", area, circumference);
     }
 }
